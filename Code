@@ -1,0 +1,49 @@
+import java.util.Scanner;
+public class Calculator
+{
+    public static void main(String[] args)
+    {
+
+    }
+    public static int add(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+    public static int subtract(int num1, int num2)
+    {
+        return num1 - num2;
+    }
+        public static int multiply(int num1, int num2)
+    {
+        return num1 * num2;
+    }
+        public static double divide(double num1, Double num2)
+    {
+        return num1 / num2;
+    }
+        public static double absoluteValue(double num1)
+    {
+        return;
+        if (num1 < 0)
+        {
+            return = num1 * -1; 
+        }
+        else
+        {
+            num1;
+        }
+    }
+        public static double round(double num1)
+    {
+        return;
+        if (num1 + 0.5 >= (int)num1 + 1
+        {
+            int num2 = (int)num1 + 1
+            return = num2;
+        }
+        else
+        {
+            return = (int)num1
+        }    
+    }
+}
